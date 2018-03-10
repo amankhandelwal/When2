@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e36c4c"
+
+    tools:context="com.when.threemb.when.Splash">
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoView1"
+        android:id="@+id/tv1"
+        android:text="WHEN"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp"
+        android:background="#e36c4c"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv2"
+        android:textAlignment="center"
+        android:background="#e36c4c"
+        android:textColor="#ffffff"
+        android:text="your college buddy"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
